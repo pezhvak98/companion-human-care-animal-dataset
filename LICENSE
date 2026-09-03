@@ -1,0 +1,75 @@
+# License and Attribution Notice
+
+Copyright (c) 2026 Mohammad Meftahi
+
+## Important Notice
+
+This repository contains metadata, documentation, and dataset information related to the **Companion & Human-Care Animal Dataset**.
+
+The dataset is a composite collection assembled from multiple publicly available datasets and sources. The original images and other third-party materials remain subject to the licenses, copyrights, and terms of their respective original sources.
+
+This repository does **not** claim ownership of the original third-party images and does not grant, transfer, or replace any rights associated with those materials.
+
+The files contained in this repository, including metadata and documentation created specifically for this project, may be used, copied, modified, and distributed for research and development purposes, provided that the attribution to the project is retained.
+
+### Third-Party Dataset Sources
+
+The image dataset hosted separately on Hugging Face was assembled using material originating from sources including:
+
+* Stanford Dogs Dataset
+* Cat Breeds Dataset
+* Bird Species Dataset
+* Roboflow rabbit dataset
+* ImageNet-O
+
+Each source remains governed by its own applicable license and terms.
+
+Users of the complete image dataset are responsible for reviewing and complying with the licensing requirements, attribution requirements, and usage restrictions of the original sources.
+
+## No Blanket License for Images
+
+Nothing in this repository should be interpreted as granting a blanket license to the underlying third-party images.
+
+In particular, this notice does not relicense the original images under MIT, Apache-2.0, CC0, CC-BY, or any other license.
+
+## Dataset Usage
+
+The dataset is provided for purposes including:
+
+* Computer vision research
+* Machine learning experimentation
+* Animal image classification
+* Animal recognition
+* Fine-grained breed and species classification
+* Academic and educational projects
+
+For commercial use, redistribution, or other uses requiring additional permissions, users should independently verify the terms applicable to the original source datasets.
+
+## Attribution
+
+When referencing this dataset in a project, publication, experiment, or derivative work, please credit:
+
+**Companion & Human-Care Animal Dataset**
+Created and curated by **Mohammad Meftahi**
+
+Hugging Face Dataset:
+
+https://huggingface.co/datasets/Pezhvak98/companion-human-care-animal-dataset
+
+GitHub Repository:
+
+https://github.com/pezhvak98/companion-human-care-animal-dataset
+
+## Disclaimer
+
+This dataset and its metadata are provided on an "as is" basis without warranties of any kind.
+
+The dataset maintainer does not guarantee the accuracy, completeness, ownership status, or licensing status of third-party materials beyond the information provided by their respective sources.
+
+Users are solely responsible for determining whether their intended use complies with the applicable laws, licenses, and terms.
+
+---
+
+**© 2026 Mohammad Meftahi.**
+
+The copyright notice above applies to the original metadata and documentation created for this repository and does not assert ownership of third-party images.
