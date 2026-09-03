@@ -1,0 +1,1131 @@
+{
+  "dataset_name": "Companion & Human-Care Animal Dataset",
+  "image": {
+    "target_width": 192,
+    "target_height": 192,
+    "target_size": "192x192"
+  },
+  "dataset": {
+    "total_images": 154140,
+    "num_classes": 211
+  },
+  "animal_groups": {
+    "bird": {
+      "num_classes": 26,
+      "num_images": 4960
+    },
+    "cat": {
+      "num_classes": 63,
+      "num_images": 126586
+    },
+    "dog": {
+      "num_classes": 120,
+      "num_images": 20580
+    },
+    "rabbit": {
+      "num_classes": 1,
+      "num_images": 514
+    },
+    "unknown": {
+      "num_classes": 1,
+      "num_images": 1500
+    }
+  },
+  "splits": {
+    "train": {
+      "total_images": 123975,
+      "num_classes": 211,
+      "animal_groups": {
+        "bird": 4701,
+        "cat": 101245,
+        "dog": 16418,
+        "rabbit": 411,
+        "unknown": 1200
+      }
+    },
+    "valid": {
+      "total_images": 15042,
+      "num_classes": 211,
+      "animal_groups": {
+        "bird": 134,
+        "cat": 12655,
+        "dog": 2052,
+        "rabbit": 51,
+        "unknown": 150
+      }
+    },
+    "test": {
+      "total_images": 15123,
+      "num_classes": 210,
+      "animal_groups": {
+        "bird": 125,
+        "cat": 12686,
+        "dog": 2110,
+        "rabbit": 52,
+        "unknown": 150
+      }
+    }
+  },
+  "class_distribution": {
+    "min_images_per_class": 17,
+    "max_images_per_class": 53027,
+    "average_images_per_class": 730.52
+  },
+  "classes": {
+    "bird_alexandrine_parakeet": {
+      "id": 0,
+      "animal_group": "bird",
+      "num_images": 175
+    },
+    "bird_bald_eagle": {
+      "id": 1,
+      "animal_group": "bird",
+      "num_images": 170
+    },
+    "bird_canary": {
+      "id": 2,
+      "animal_group": "bird",
+      "num_images": 170
+    },
+    "bird_chukar_partridge": {
+      "id": 3,
+      "animal_group": "bird",
+      "num_images": 177
+    },
+    "bird_cockatiel": {
+      "id": 4,
+      "animal_group": "bird",
+      "num_images": 623
+    },
+    "bird_cockatoo": {
+      "id": 5,
+      "animal_group": "bird",
+      "num_images": 176
+    },
+    "bird_crow": {
+      "id": 6,
+      "animal_group": "bird",
+      "num_images": 173
+    },
+    "bird_egyptian_goose": {
+      "id": 7,
+      "animal_group": "bird",
+      "num_images": 167
+    },
+    "bird_enggano_myna": {
+      "id": 8,
+      "animal_group": "bird",
+      "num_images": 175
+    },
+    "bird_european_goldfinch": {
+      "id": 9,
+      "animal_group": "bird",
+      "num_images": 145
+    },
+    "bird_golden_eagle": {
+      "id": 10,
+      "animal_group": "bird",
+      "num_images": 168
+    },
+    "bird_gouldian_finch": {
+      "id": 11,
+      "animal_group": "bird",
+      "num_images": 165
+    },
+    "bird_hyacinth_macaw": {
+      "id": 12,
+      "animal_group": "bird",
+      "num_images": 175
+    },
+    "bird_jacobin_pigeon": {
+      "id": 13,
+      "animal_group": "bird",
+      "num_images": 214
+    },
+    "bird_jandaya_parakeet": {
+      "id": 14,
+      "animal_group": "bird",
+      "num_images": 172
+    },
+    "bird_mallard_duck": {
+      "id": 15,
+      "animal_group": "bird",
+      "num_images": 145
+    },
+    "bird_mourning_dove": {
+      "id": 16,
+      "animal_group": "bird",
+      "num_images": 163
+    },
+    "bird_myna": {
+      "id": 17,
+      "animal_group": "bird",
+      "num_images": 151
+    },
+    "bird_peregrine_falcon": {
+      "id": 18,
+      "animal_group": "bird",
+      "num_images": 166
+    },
+    "bird_rose_breasted_cockatoo": {
+      "id": 19,
+      "animal_group": "bird",
+      "num_images": 207
+    },
+    "bird_rosy_faced_lovebird": {
+      "id": 20,
+      "animal_group": "bird",
+      "num_images": 149
+    },
+    "bird_scarlet_macaw": {
+      "id": 21,
+      "animal_group": "bird",
+      "num_images": 167
+    },
+    "bird_snow_goose": {
+      "id": 22,
+      "animal_group": "bird",
+      "num_images": 200
+    },
+    "bird_wild_turkey": {
+      "id": 23,
+      "animal_group": "bird",
+      "num_images": 163
+    },
+    "bird_wood_duck": {
+      "id": 24,
+      "animal_group": "bird",
+      "num_images": 224
+    },
+    "bird_zebra_dove": {
+      "id": 25,
+      "animal_group": "bird",
+      "num_images": 180
+    },
+    "cat_abyssinian": {
+      "id": 26,
+      "animal_group": "cat",
+      "num_images": 255
+    },
+    "cat_american_bobtail": {
+      "id": 27,
+      "animal_group": "cat",
+      "num_images": 991
+    },
+    "cat_american_curl": {
+      "id": 28,
+      "animal_group": "cat",
+      "num_images": 149
+    },
+    "cat_american_shorthair": {
+      "id": 29,
+      "animal_group": "cat",
+      "num_images": 5295
+    },
+    "cat_american_wirehair": {
+      "id": 30,
+      "animal_group": "cat",
+      "num_images": 19
+    },
+    "cat_applehead_siamese": {
+      "id": 31,
+      "animal_group": "cat",
+      "num_images": 135
+    },
+    "cat_balinese": {
+      "id": 32,
+      "animal_group": "cat",
+      "num_images": 254
+    },
+    "cat_bengal": {
+      "id": 33,
+      "animal_group": "cat",
+      "num_images": 2477
+    },
+    "cat_birman": {
+      "id": 34,
+      "animal_group": "cat",
+      "num_images": 227
+    },
+    "cat_bombay": {
+      "id": 35,
+      "animal_group": "cat",
+      "num_images": 1835
+    },
+    "cat_british_shorthair": {
+      "id": 36,
+      "animal_group": "cat",
+      "num_images": 567
+    },
+    "cat_burmese": {
+      "id": 37,
+      "animal_group": "cat",
+      "num_images": 344
+    },
+    "cat_calico": {
+      "id": 38,
+      "animal_group": "cat",
+      "num_images": 3468
+    },
+    "cat_chartreux": {
+      "id": 39,
+      "animal_group": "cat",
+      "num_images": 84
+    },
+    "cat_chausie": {
+      "id": 40,
+      "animal_group": "cat",
+      "num_images": 24
+    },
+    "cat_cornish_rex": {
+      "id": 41,
+      "animal_group": "cat",
+      "num_images": 171
+    },
+    "cat_cymric": {
+      "id": 42,
+      "animal_group": "cat",
+      "num_images": 17
+    },
+    "cat_devon_rex": {
+      "id": 43,
+      "animal_group": "cat",
+      "num_images": 119
+    },
+    "cat_dilute_calico": {
+      "id": 44,
+      "animal_group": "cat",
+      "num_images": 3230
+    },
+    "cat_dilute_tortoiseshell": {
+      "id": 45,
+      "animal_group": "cat",
+      "num_images": 3152
+    },
+    "cat_domestic_long_hair": {
+      "id": 46,
+      "animal_group": "cat",
+      "num_images": 4499
+    },
+    "cat_domestic_medium_hair": {
+      "id": 47,
+      "animal_group": "cat",
+      "num_images": 5482
+    },
+    "cat_domestic_short_hair": {
+      "id": 48,
+      "animal_group": "cat",
+      "num_images": 53027
+    },
+    "cat_egyptian_mau": {
+      "id": 49,
+      "animal_group": "cat",
+      "num_images": 305
+    },
+    "cat_exotic_shorthair": {
+      "id": 50,
+      "animal_group": "cat",
+      "num_images": 471
+    },
+    "cat_extra_toes_cat___hemingway_polydactyl": {
+      "id": 51,
+      "animal_group": "cat",
+      "num_images": 1184
+    },
+    "cat_havana": {
+      "id": 52,
+      "animal_group": "cat",
+      "num_images": 184
+    },
+    "cat_himalayan": {
+      "id": 53,
+      "animal_group": "cat",
+      "num_images": 1301
+    },
+    "cat_japanese_bobtail": {
+      "id": 54,
+      "animal_group": "cat",
+      "num_images": 127
+    },
+    "cat_javanese": {
+      "id": 55,
+      "animal_group": "cat",
+      "num_images": 25
+    },
+    "cat_korat": {
+      "id": 56,
+      "animal_group": "cat",
+      "num_images": 68
+    },
+    "cat_laperm": {
+      "id": 57,
+      "animal_group": "cat",
+      "num_images": 17
+    },
+    "cat_maine_coon": {
+      "id": 58,
+      "animal_group": "cat",
+      "num_images": 1418
+    },
+    "cat_manx": {
+      "id": 59,
+      "animal_group": "cat",
+      "num_images": 2059
+    },
+    "cat_munchkin": {
+      "id": 60,
+      "animal_group": "cat",
+      "num_images": 181
+    },
+    "cat_nebelung": {
+      "id": 61,
+      "animal_group": "cat",
+      "num_images": 148
+    },
+    "cat_norwegian_forest_cat": {
+      "id": 62,
+      "animal_group": "cat",
+      "num_images": 580
+    },
+    "cat_ocicat": {
+      "id": 63,
+      "animal_group": "cat",
+      "num_images": 118
+    },
+    "cat_oriental_long_hair": {
+      "id": 64,
+      "animal_group": "cat",
+      "num_images": 37
+    },
+    "cat_oriental_short_hair": {
+      "id": 65,
+      "animal_group": "cat",
+      "num_images": 491
+    },
+    "cat_oriental_tabby": {
+      "id": 66,
+      "animal_group": "cat",
+      "num_images": 101
+    },
+    "cat_persian": {
+      "id": 67,
+      "animal_group": "cat",
+      "num_images": 4018
+    },
+    "cat_pixiebob": {
+      "id": 68,
+      "animal_group": "cat",
+      "num_images": 111
+    },
+    "cat_ragamuffin": {
+      "id": 69,
+      "animal_group": "cat",
+      "num_images": 134
+    },
+    "cat_ragdoll": {
+      "id": 70,
+      "animal_group": "cat",
+      "num_images": 2669
+    },
+    "cat_russian_blue": {
+      "id": 71,
+      "animal_group": "cat",
+      "num_images": 1870
+    },
+    "cat_scottish_fold": {
+      "id": 72,
+      "animal_group": "cat",
+      "num_images": 380
+    },
+    "cat_selkirk_rex": {
+      "id": 73,
+      "animal_group": "cat",
+      "num_images": 77
+    },
+    "cat_siamese": {
+      "id": 74,
+      "animal_group": "cat",
+      "num_images": 2888
+    },
+    "cat_siberian": {
+      "id": 75,
+      "animal_group": "cat",
+      "num_images": 189
+    },
+    "cat_silver": {
+      "id": 76,
+      "animal_group": "cat",
+      "num_images": 90
+    },
+    "cat_singapura": {
+      "id": 77,
+      "animal_group": "cat",
+      "num_images": 22
+    },
+    "cat_snowshoe": {
+      "id": 78,
+      "animal_group": "cat",
+      "num_images": 1625
+    },
+    "cat_somali": {
+      "id": 79,
+      "animal_group": "cat",
+      "num_images": 35
+    },
+    "cat_sphynx___hairless_cat": {
+      "id": 80,
+      "animal_group": "cat",
+      "num_images": 209
+    },
+    "cat_tabby": {
+      "id": 81,
+      "animal_group": "cat",
+      "num_images": 3012
+    },
+    "cat_tiger": {
+      "id": 82,
+      "animal_group": "cat",
+      "num_images": 2256
+    },
+    "cat_tonkinese": {
+      "id": 83,
+      "animal_group": "cat",
+      "num_images": 260
+    },
+    "cat_torbie": {
+      "id": 84,
+      "animal_group": "cat",
+      "num_images": 3396
+    },
+    "cat_tortoiseshell": {
+      "id": 85,
+      "animal_group": "cat",
+      "num_images": 3963
+    },
+    "cat_turkish_angora": {
+      "id": 86,
+      "animal_group": "cat",
+      "num_images": 750
+    },
+    "cat_turkish_van": {
+      "id": 87,
+      "animal_group": "cat",
+      "num_images": 815
+    },
+    "cat_tuxedo": {
+      "id": 88,
+      "animal_group": "cat",
+      "num_images": 3181
+    },
+    "dog_affenpinscher": {
+      "id": 89,
+      "animal_group": "dog",
+      "num_images": 150
+    },
+    "dog_afghan_hound": {
+      "id": 90,
+      "animal_group": "dog",
+      "num_images": 239
+    },
+    "dog_african_hunting_dog": {
+      "id": 91,
+      "animal_group": "dog",
+      "num_images": 169
+    },
+    "dog_airedale": {
+      "id": 92,
+      "animal_group": "dog",
+      "num_images": 202
+    },
+    "dog_american_staffordshire_terrier": {
+      "id": 93,
+      "animal_group": "dog",
+      "num_images": 164
+    },
+    "dog_appenzeller": {
+      "id": 94,
+      "animal_group": "dog",
+      "num_images": 151
+    },
+    "dog_australian_terrier": {
+      "id": 95,
+      "animal_group": "dog",
+      "num_images": 196
+    },
+    "dog_basenji": {
+      "id": 96,
+      "animal_group": "dog",
+      "num_images": 209
+    },
+    "dog_basset": {
+      "id": 97,
+      "animal_group": "dog",
+      "num_images": 175
+    },
+    "dog_beagle": {
+      "id": 98,
+      "animal_group": "dog",
+      "num_images": 195
+    },
+    "dog_bedlington_terrier": {
+      "id": 99,
+      "animal_group": "dog",
+      "num_images": 182
+    },
+    "dog_bernese_mountain_dog": {
+      "id": 100,
+      "animal_group": "dog",
+      "num_images": 218
+    },
+    "dog_black_and_tan_coonhound": {
+      "id": 101,
+      "animal_group": "dog",
+      "num_images": 159
+    },
+    "dog_blenheim_spaniel": {
+      "id": 102,
+      "animal_group": "dog",
+      "num_images": 188
+    },
+    "dog_bloodhound": {
+      "id": 103,
+      "animal_group": "dog",
+      "num_images": 187
+    },
+    "dog_bluetick": {
+      "id": 104,
+      "animal_group": "dog",
+      "num_images": 171
+    },
+    "dog_border_collie": {
+      "id": 105,
+      "animal_group": "dog",
+      "num_images": 150
+    },
+    "dog_border_terrier": {
+      "id": 106,
+      "animal_group": "dog",
+      "num_images": 172
+    },
+    "dog_borzoi": {
+      "id": 107,
+      "animal_group": "dog",
+      "num_images": 151
+    },
+    "dog_boston_bull": {
+      "id": 108,
+      "animal_group": "dog",
+      "num_images": 182
+    },
+    "dog_bouvier_des_flandres": {
+      "id": 109,
+      "animal_group": "dog",
+      "num_images": 150
+    },
+    "dog_boxer": {
+      "id": 110,
+      "animal_group": "dog",
+      "num_images": 151
+    },
+    "dog_brabancon_griffon": {
+      "id": 111,
+      "animal_group": "dog",
+      "num_images": 153
+    },
+    "dog_briard": {
+      "id": 112,
+      "animal_group": "dog",
+      "num_images": 152
+    },
+    "dog_brittany_spaniel": {
+      "id": 113,
+      "animal_group": "dog",
+      "num_images": 152
+    },
+    "dog_bull_mastiff": {
+      "id": 114,
+      "animal_group": "dog",
+      "num_images": 156
+    },
+    "dog_cairn": {
+      "id": 115,
+      "animal_group": "dog",
+      "num_images": 197
+    },
+    "dog_cardigan": {
+      "id": 116,
+      "animal_group": "dog",
+      "num_images": 155
+    },
+    "dog_chesapeake_bay_retriever": {
+      "id": 117,
+      "animal_group": "dog",
+      "num_images": 167
+    },
+    "dog_chihuahua": {
+      "id": 118,
+      "animal_group": "dog",
+      "num_images": 152
+    },
+    "dog_chow": {
+      "id": 119,
+      "animal_group": "dog",
+      "num_images": 196
+    },
+    "dog_clumber": {
+      "id": 120,
+      "animal_group": "dog",
+      "num_images": 150
+    },
+    "dog_cocker_spaniel": {
+      "id": 121,
+      "animal_group": "dog",
+      "num_images": 159
+    },
+    "dog_collie": {
+      "id": 122,
+      "animal_group": "dog",
+      "num_images": 153
+    },
+    "dog_curly_coated_retriever": {
+      "id": 123,
+      "animal_group": "dog",
+      "num_images": 151
+    },
+    "dog_dandie_dinmont": {
+      "id": 124,
+      "animal_group": "dog",
+      "num_images": 180
+    },
+    "dog_dhole": {
+      "id": 125,
+      "animal_group": "dog",
+      "num_images": 150
+    },
+    "dog_dingo": {
+      "id": 126,
+      "animal_group": "dog",
+      "num_images": 156
+    },
+    "dog_doberman": {
+      "id": 127,
+      "animal_group": "dog",
+      "num_images": 150
+    },
+    "dog_english_foxhound": {
+      "id": 128,
+      "animal_group": "dog",
+      "num_images": 157
+    },
+    "dog_english_setter": {
+      "id": 129,
+      "animal_group": "dog",
+      "num_images": 161
+    },
+    "dog_english_springer": {
+      "id": 130,
+      "animal_group": "dog",
+      "num_images": 159
+    },
+    "dog_entlebucher": {
+      "id": 131,
+      "animal_group": "dog",
+      "num_images": 202
+    },
+    "dog_eskimo_dog": {
+      "id": 132,
+      "animal_group": "dog",
+      "num_images": 150
+    },
+    "dog_flat_coated_retriever": {
+      "id": 133,
+      "animal_group": "dog",
+      "num_images": 152
+    },
+    "dog_french_bulldog": {
+      "id": 134,
+      "animal_group": "dog",
+      "num_images": 159
+    },
+    "dog_german_shepherd": {
+      "id": 135,
+      "animal_group": "dog",
+      "num_images": 152
+    },
+    "dog_german_short_haired_pointer": {
+      "id": 136,
+      "animal_group": "dog",
+      "num_images": 152
+    },
+    "dog_giant_schnauzer": {
+      "id": 137,
+      "animal_group": "dog",
+      "num_images": 157
+    },
+    "dog_golden_retriever": {
+      "id": 138,
+      "animal_group": "dog",
+      "num_images": 150
+    },
+    "dog_gordon_setter": {
+      "id": 139,
+      "animal_group": "dog",
+      "num_images": 153
+    },
+    "dog_great_dane": {
+      "id": 140,
+      "animal_group": "dog",
+      "num_images": 156
+    },
+    "dog_great_pyrenees": {
+      "id": 141,
+      "animal_group": "dog",
+      "num_images": 213
+    },
+    "dog_greater_swiss_mountain_dog": {
+      "id": 142,
+      "animal_group": "dog",
+      "num_images": 168
+    },
+    "dog_groenendael": {
+      "id": 143,
+      "animal_group": "dog",
+      "num_images": 150
+    },
+    "dog_ibizan_hound": {
+      "id": 144,
+      "animal_group": "dog",
+      "num_images": 188
+    },
+    "dog_irish_setter": {
+      "id": 145,
+      "animal_group": "dog",
+      "num_images": 155
+    },
+    "dog_irish_terrier": {
+      "id": 146,
+      "animal_group": "dog",
+      "num_images": 169
+    },
+    "dog_irish_water_spaniel": {
+      "id": 147,
+      "animal_group": "dog",
+      "num_images": 150
+    },
+    "dog_irish_wolfhound": {
+      "id": 148,
+      "animal_group": "dog",
+      "num_images": 218
+    },
+    "dog_italian_greyhound": {
+      "id": 149,
+      "animal_group": "dog",
+      "num_images": 182
+    },
+    "dog_japanese_spaniel": {
+      "id": 150,
+      "animal_group": "dog",
+      "num_images": 185
+    },
+    "dog_keeshond": {
+      "id": 151,
+      "animal_group": "dog",
+      "num_images": 158
+    },
+    "dog_kelpie": {
+      "id": 152,
+      "animal_group": "dog",
+      "num_images": 153
+    },
+    "dog_kerry_blue_terrier": {
+      "id": 153,
+      "animal_group": "dog",
+      "num_images": 179
+    },
+    "dog_komondor": {
+      "id": 154,
+      "animal_group": "dog",
+      "num_images": 154
+    },
+    "dog_kuvasz": {
+      "id": 155,
+      "animal_group": "dog",
+      "num_images": 150
+    },
+    "dog_labrador_retriever": {
+      "id": 156,
+      "animal_group": "dog",
+      "num_images": 171
+    },
+    "dog_lakeland_terrier": {
+      "id": 157,
+      "animal_group": "dog",
+      "num_images": 197
+    },
+    "dog_leonberg": {
+      "id": 158,
+      "animal_group": "dog",
+      "num_images": 210
+    },
+    "dog_lhasa": {
+      "id": 159,
+      "animal_group": "dog",
+      "num_images": 186
+    },
+    "dog_malamute": {
+      "id": 160,
+      "animal_group": "dog",
+      "num_images": 178
+    },
+    "dog_malinois": {
+      "id": 161,
+      "animal_group": "dog",
+      "num_images": 150
+    },
+    "dog_maltese_dog": {
+      "id": 162,
+      "animal_group": "dog",
+      "num_images": 252
+    },
+    "dog_mexican_hairless": {
+      "id": 163,
+      "animal_group": "dog",
+      "num_images": 155
+    },
+    "dog_miniature_pinscher": {
+      "id": 164,
+      "animal_group": "dog",
+      "num_images": 184
+    },
+    "dog_miniature_poodle": {
+      "id": 165,
+      "animal_group": "dog",
+      "num_images": 155
+    },
+    "dog_miniature_schnauzer": {
+      "id": 166,
+      "animal_group": "dog",
+      "num_images": 154
+    },
+    "dog_newfoundland": {
+      "id": 167,
+      "animal_group": "dog",
+      "num_images": 195
+    },
+    "dog_norfolk_terrier": {
+      "id": 168,
+      "animal_group": "dog",
+      "num_images": 172
+    },
+    "dog_norwegian_elkhound": {
+      "id": 169,
+      "animal_group": "dog",
+      "num_images": 196
+    },
+    "dog_norwich_terrier": {
+      "id": 170,
+      "animal_group": "dog",
+      "num_images": 185
+    },
+    "dog_old_english_sheepdog": {
+      "id": 171,
+      "animal_group": "dog",
+      "num_images": 169
+    },
+    "dog_otterhound": {
+      "id": 172,
+      "animal_group": "dog",
+      "num_images": 151
+    },
+    "dog_papillon": {
+      "id": 173,
+      "animal_group": "dog",
+      "num_images": 196
+    },
+    "dog_pekinese": {
+      "id": 174,
+      "animal_group": "dog",
+      "num_images": 149
+    },
+    "dog_pembroke": {
+      "id": 175,
+      "animal_group": "dog",
+      "num_images": 181
+    },
+    "dog_pomeranian": {
+      "id": 176,
+      "animal_group": "dog",
+      "num_images": 219
+    },
+    "dog_pug": {
+      "id": 177,
+      "animal_group": "dog",
+      "num_images": 200
+    },
+    "dog_redbone": {
+      "id": 178,
+      "animal_group": "dog",
+      "num_images": 148
+    },
+    "dog_rhodesian_ridgeback": {
+      "id": 179,
+      "animal_group": "dog",
+      "num_images": 172
+    },
+    "dog_rottweiler": {
+      "id": 180,
+      "animal_group": "dog",
+      "num_images": 152
+    },
+    "dog_saint_bernard": {
+      "id": 181,
+      "animal_group": "dog",
+      "num_images": 170
+    },
+    "dog_saluki": {
+      "id": 182,
+      "animal_group": "dog",
+      "num_images": 200
+    },
+    "dog_samoyed": {
+      "id": 183,
+      "animal_group": "dog",
+      "num_images": 218
+    },
+    "dog_schipperke": {
+      "id": 184,
+      "animal_group": "dog",
+      "num_images": 154
+    },
+    "dog_scotch_terrier": {
+      "id": 185,
+      "animal_group": "dog",
+      "num_images": 158
+    },
+    "dog_scottish_deerhound": {
+      "id": 186,
+      "animal_group": "dog",
+      "num_images": 232
+    },
+    "dog_sealyham_terrier": {
+      "id": 187,
+      "animal_group": "dog",
+      "num_images": 202
+    },
+    "dog_shetland_sheepdog": {
+      "id": 188,
+      "animal_group": "dog",
+      "num_images": 157
+    },
+    "dog_shih_tzu": {
+      "id": 189,
+      "animal_group": "dog",
+      "num_images": 214
+    },
+    "dog_siberian_husky": {
+      "id": 190,
+      "animal_group": "dog",
+      "num_images": 192
+    },
+    "dog_silky_terrier": {
+      "id": 191,
+      "animal_group": "dog",
+      "num_images": 183
+    },
+    "dog_soft_coated_wheaten_terrier": {
+      "id": 192,
+      "animal_group": "dog",
+      "num_images": 156
+    },
+    "dog_staffordshire_bullterrier": {
+      "id": 193,
+      "animal_group": "dog",
+      "num_images": 155
+    },
+    "dog_standard_poodle": {
+      "id": 194,
+      "animal_group": "dog",
+      "num_images": 159
+    },
+    "dog_standard_schnauzer": {
+      "id": 195,
+      "animal_group": "dog",
+      "num_images": 155
+    },
+    "dog_sussex_spaniel": {
+      "id": 196,
+      "animal_group": "dog",
+      "num_images": 151
+    },
+    "dog_tibetan_mastiff": {
+      "id": 197,
+      "animal_group": "dog",
+      "num_images": 152
+    },
+    "dog_tibetan_terrier": {
+      "id": 198,
+      "animal_group": "dog",
+      "num_images": 206
+    },
+    "dog_toy_poodle": {
+      "id": 199,
+      "animal_group": "dog",
+      "num_images": 151
+    },
+    "dog_toy_terrier": {
+      "id": 200,
+      "animal_group": "dog",
+      "num_images": 172
+    },
+    "dog_vizsla": {
+      "id": 201,
+      "animal_group": "dog",
+      "num_images": 154
+    },
+    "dog_walker_hound": {
+      "id": 202,
+      "animal_group": "dog",
+      "num_images": 153
+    },
+    "dog_weimaraner": {
+      "id": 203,
+      "animal_group": "dog",
+      "num_images": 160
+    },
+    "dog_welsh_springer_spaniel": {
+      "id": 204,
+      "animal_group": "dog",
+      "num_images": 150
+    },
+    "dog_west_highland_white_terrier": {
+      "id": 205,
+      "animal_group": "dog",
+      "num_images": 169
+    },
+    "dog_whippet": {
+      "id": 206,
+      "animal_group": "dog",
+      "num_images": 187
+    },
+    "dog_wire_haired_fox_terrier": {
+      "id": 207,
+      "animal_group": "dog",
+      "num_images": 157
+    },
+    "dog_yorkshire_terrier": {
+      "id": 208,
+      "animal_group": "dog",
+      "num_images": 164
+    },
+    "rabbit": {
+      "id": 209,
+      "animal_group": "rabbit",
+      "num_images": 514
+    },
+    "unknown": {
+      "id": 210,
+      "animal_group": "unknown",
+      "num_images": 1500
+    }
+  }
+}

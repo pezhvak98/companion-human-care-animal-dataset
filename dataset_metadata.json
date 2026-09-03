@@ -1,0 +1,12 @@
+{
+  "dataset_name": "Companion & Human-Care Animal Dataset",
+  "version": "1.0.0",
+  "task": "image_classification",
+  "animal_groups": [
+    "dog",
+    "cat",
+    "bird",
+    "rabbit"
+  ],
+  "includes_unknown_class": true
+}
